@@ -1,7 +1,7 @@
 # 🎮 Jeu du pendu en Typescript
 
 
-## Règles
+## ⚖️ Règles
 
 La page web choisit aléatoirement un mot à faire deviner à l'utilisateur. \
 Le mot est affiché sous la forme d'emplacement de lettre (par exemple, des underscores). \
@@ -12,15 +12,15 @@ L'utilisateur a dû faire 6 erreurs, après chaque erreur le dessin du pendu doi
 Si l'utilisateur trouve le mot avant d'avoir fait 6 erreurs, celui-ci gagne le jeu ! \
 Dans le cas contraint, indique à l'utilisateur qu'il a perdu et affiche le mot. 
 
-## Bonus
+## 🎁 Bonus
 
 1) L'utilisateur utilise des boutons pour proposer les lettres. Ceux-ci ne sont plus cliquables si la lettre a été proposée. 
 2) Ajouter un mode "facile" qui révèle 2 lettres au début de la partie. 
 
 
-## Tips
+## 🔧 Tips
 
-### Exemple de procedure de travail
+### 🎯 Exemple de procedure de travail
 
 1) Mettre en place le projet \
 • Les fichiers (index.html & script.ts) \

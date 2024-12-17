@@ -14,7 +14,7 @@ Dans le cas contraint, indique à l'utilisateur qu'il a perdu et affiche le mot.
 
 ## Bonus
 
-1) L'utilisateur utilise des boutons pour proposer les lettres. Ceux-ci ne sont plus cliquables si la lettre a été proposée. \
+1) L'utilisateur utilise des boutons pour proposer les lettres. Ceux-ci ne sont plus cliquables si la lettre a été proposée. 
 2) Ajouter un mode "facile" qui révèle 2 lettres au début de la partie. 
 
 

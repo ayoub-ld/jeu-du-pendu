@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le pendu en Typescript</title>
+    <script src="dist/index.js" defer></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="pendu">
+          <img
+            src="images/pendu-0-start.png"
+            alt="la potence"
+            class="pendu-img"
+          />
+        </div>
+        <div class="word">
+          <h1>Le jeu du pendu</h1>
+          <div class="input-group">
+            <input type="text" id="lettre" placeholder="Entrez une lettre" />
+            <button
+              type="button"
+              id="btn"
+              name="btn"
+              aria-label="Valider la lettre"
+            >
+              Valider
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

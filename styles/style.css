@@ -71,3 +71,22 @@ button:hover {
   text-align: center;
   background-color: transparent;
 }
+
+.list-lettres-trouvees {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  gap: 1rem;
+  color: rgb(35, 36, 37);
+}
+
+.lettre-cachee {
+  color: rgba(17, 17, 17, 0.84);
+  padding: 0.5rem;
+  font-size: 3rem;
+  display: inline-block;
+}
+
+#nbLettres {
+  display: flex;
+}

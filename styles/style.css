@@ -63,7 +63,8 @@ button:hover {
   height: 100%;
 }
 
-#msg-perdu {
+#msg-perdu,
+#msg-gagne {
   font-size: 8rem;
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);

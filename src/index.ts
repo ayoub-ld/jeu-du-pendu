@@ -84,6 +84,14 @@ function play(mot: string, lettre: string): void {
       } else {
         console.log("La lettre est dans le mot");
         bonneLettre(lettre);
+        if (
+          [...new Set(mot)].every((lettre) =>
+            lettresDejaTrouves.includes(lettre)
+          )
+        ) {
+          console.log("Bravo, vous avez trouvé le mot");
+          partieGagnee();
+        }
       }
     } else {
       console.log("La lettre n'est pas dans le mot");
@@ -127,6 +135,19 @@ function partiePerdue() {
   const p = document.createElement("p");
   p.id = "msg-perdu";
   p.textContent = "Perdu !";
+  wordContainer.innerHTML = "";
+  wordContainer.appendChild(p);
+}
+
+/**
+ * @name partieGagnee
+ * @description Fonction pour la partie gagnee
+ */
+function partieGagnee() {
+  console.log("GG");
+  const p = document.createElement("p");
+  p.id = "msg-gagne";
+  p.textContent = "GG EZ !";
   wordContainer.innerHTML = "";
   wordContainer.appendChild(p);
 }

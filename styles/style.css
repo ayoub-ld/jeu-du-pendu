@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif, comic sans ms;
+  font-family: "Oswald", sans-serif, comic sans ms, monospace;
   input,
   button {
     /* background-color: rgb(252, 249, 249); */
@@ -84,10 +84,20 @@ button:hover {
 .lettre-cachee {
   color: rgba(17, 17, 17, 0.84);
   padding: 0.5rem;
-  font-size: 3rem;
+  font-size: 4rem;
+  width: 5ch; //Use CSS ch unit for consistent character width
+  text-align: center;
+  letter-spacing: 0.1em; //Add letter spacing and padding for equal distribution
   display: inline-block;
+  gap: 0.5rem;
 }
 
 #nbLettres {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 10rem;
+  padding-top: 1rem;
+  letter-spacing: 1rem;
 }

@@ -85,7 +85,7 @@ button:hover {
   color: rgba(17, 17, 17, 0.84);
   padding: 0.5rem;
   font-size: 4rem;
-  width: 5ch; //Use CSS ch unit for consistent character width
+  width: 2ch; //Use CSS ch unit for consistent character width
   text-align: center;
   letter-spacing: 0.1em; //Add letter spacing and padding for equal distribution
   display: inline-block;
@@ -99,5 +99,11 @@ button:hover {
   flex-direction: row;
   padding-right: 10rem;
   padding-top: 1rem;
-  letter-spacing: 1rem;
+  padding-left: 10rem;
+  font-size: 4rem;
+  width: 2ch; //Use CSS ch unit for consistent character width
+  text-align: center;
+  letter-spacing: 1em;
 }
+
+//TODO : AMELIORER LE CSS QUAND UNE LETTRE EST TROUVE POUR AVOIR LE MEME ESPACEMENT ENTRE LES LETTRES
